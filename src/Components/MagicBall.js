@@ -69,6 +69,7 @@ class MagicBall extends Component {
     const answer = possibleAnswers[this.state.randomIndex];
     return (
       <div className="container">
+        <h3 className="info">Type in textbox and press enter key!</h3>
         <div
           className={!(this.state.entered) ? 'ball' : 'ball shake'}>
           <div className="inputBox">
@@ -77,7 +78,7 @@ class MagicBall extends Component {
               value={this.state.userInput}
               onChange={this.handleChange}
               onKeyDown={this.handleKeyPress}
-              placeholder="Type Question"
+              placeholder="Your Question"
               className="input"
             />
           </div>
