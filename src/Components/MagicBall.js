@@ -71,7 +71,7 @@ class MagicBall extends Component {
       <div className="container">
         <div
           className={!(this.state.entered) ? 'ball' : 'ball shakeAnim'}>
-          <div className="input">
+          <div className="inputbox">
             <input
               type="text"
               value={this.state.userInput}
@@ -81,8 +81,7 @@ class MagicBall extends Component {
               className="input"
             />
           </div>
-          <br />
-          <h2>Ask the Magic Eight Ball!</h2>
+          <h2 className="prompt">Ask the Magic Eight Ball!</h2>
           <br />
           <p className={!(this.state.entered) ? 'answer' : 'answer fadeIn'}>
             {answer}
