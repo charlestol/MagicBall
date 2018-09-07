@@ -70,8 +70,8 @@ class MagicBall extends Component {
     return (
       <div className="container">
         <div
-          className={!(this.state.entered) ? 'ball' : 'ball shakeAnim'}>
-          <div className="inputbox">
+          className={!(this.state.entered) ? 'ball' : 'ball shake'}>
+          <div className="inputBox">
             <input
               type="text"
               value={this.state.userInput}
