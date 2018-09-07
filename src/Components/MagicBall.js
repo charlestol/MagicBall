@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+var hideVirtualKeyboard = require("hide-virtual-keyboard")
 
 class MagicBall extends Component {
   constructor(props) {
@@ -31,6 +32,7 @@ class MagicBall extends Component {
          this.setState({
            entered: true
          });
+         hideVirtualKeyboard();
          return this.ask();
       } else {
         this.setState({
