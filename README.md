@@ -1,4 +1,4 @@
-# [Magic Ball](www.charlestolentino.com/MagicBall/) 
+# [Magic Ball](https://www.charlestolentino.com/MagicBall/) 
 
 Made with [React](https://reactjs.org/)
 
